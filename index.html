@@ -34,18 +34,17 @@
 
         /* Header */
         header {
-            position: fixed;
-            top: 0;
+            position: Fixed;
+            top: 10;
             width: 100%;
             background: #3e3e3e;
-            backdrop-filter: blur(100px);
-            z-index: 1000;
-            border-bottom: 1px solid var(--color-border);
+            backdrop-filter: blur(150px);
+            z-index:4000;
         }
 
         nav {
             max-width: 4000px;
-            margin: 10px;
+            margin: 0px;
             padding: 0.5rem 2rem;
             display: flex;
             justify-content: space-between;
@@ -99,14 +98,14 @@
 
         /* Hero Section */
         .hero {
-            margin-top: 80px;
-            height: 90vh;
+            margin-top: 0px;
+            height: 100vh;
             background: #000000;
             display: flex;
             align-items: center;
             justify-content: center;
             position: relative;
-            overflow: hidden;
+            overflow: ;
         }
 
         .hero::before {
@@ -116,20 +115,20 @@
             height: 100%;
             background: 
                 repeating-linear-gradient(
-                    0deg,
+                    45deg,
                     transparent,
-                    transparent 2px,
+                    transparent 10px,
                     rgba(255, 0, 64, 0.03) 2px,
-                    rgba(255, 0, 64, 0.03) 4px
+                    rgba(247, 198, 2, 0.03) 4px
                 );
             pointer-events: none;
         }
 
         .hero-content {
             text-align: center;
-            z-index: 2;
+            z-index: 10;
             max-width: 900px;
-            padding: 2rem;
+            padding: 1rem;
         }
 
         .hero h1 {
@@ -589,7 +588,7 @@
     <!-- Header -->
     <header>
         <nav>
-            <div class="logo"><img src="d:\Pranjal\Sim Racing\SPLogo.png" alt="logo"width="800" height=auto><span></div>
+            <div class="logo"><img src="d:\Pranjal\Sim Racing\SPLogo.png" alt="logo"width="400" height=auto><span></div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#rigs">Custom Rigs</a></li>
@@ -616,7 +615,7 @@
     <!-- Custom Rigs Section -->
     <section id="rigs">
         <div class="section-header">
-            <h2>CUSTOM <span>RACING RIGS</span></h2>
+            <h2>CUSTOM RACING RIGS</span></h2>
             <p>Fully customizable simulator rigs built to your exact specifications. From entry-level to professional racing setups.</p>
         </div>
         <div class="rigs-grid">
@@ -680,7 +679,7 @@
     <!-- Accessories Section -->
     <section id="accessories">
         <div class="section-header">
-            <h2>PREMIUM <span>ACCESSORIES</span></h2>
+            <h2>PREMIUM ACCESSORIES</span></h2>
             <p>Enhance your racing experience with our curated selection of professional accessories.</p>
         </div>
         <div class="accessories-grid">
